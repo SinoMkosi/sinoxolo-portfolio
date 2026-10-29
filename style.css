@@ -526,6 +526,11 @@ section {
 .project-link:hover {
   text-decoration: underline;
 }
+
+    .project-link + .project-link {
+        margin-left: 18px;
+    }
+
 /* ===== CONTACT ===== */
 .contact-header {
   margin-bottom: 40px;
